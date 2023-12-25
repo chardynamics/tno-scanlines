@@ -1,0 +1,267 @@
+@army_reform_x_pos = -2
+@army_reform_y_pos = -48
+
+guiTypes = {
+	
+	containerWindowType =  {
+		name = "SL_scanlines_button_gui_container"
+		position = { x = 0  y = 0 }
+		orientation = upper_right
+
+		containerWindowType =  {
+			name = "SL_scanlines_button_gui_container2"
+			position = { x = -540 y = -50 }
+			size = { width = 160 height = 100 }
+			orientation = upper_right
+			
+			background = {
+				name = "SL_Background_button"
+				spriteType = "GFX_tiled_plain_bg"
+			}
+		}
+
+		buttonType = {
+			name = "SL_button_activate"
+			position = { x = -520 y = 0 }
+			quadTextureSprite ="GFX_button_123x34"
+			buttonFont = "aldrich_18_outline"
+			buttonText = SL_menu_title
+		}
+		
+		# iconType = {
+			# name = "hoi4_scanlines_25"
+			# quadTextureSprite = "GFX_hoi4_scanlines_25"
+			# position = { x = -2560 y = 0 }
+			# alwaystransparent = yes
+		# }
+		
+		# iconType = {
+			# name = "hoi4_scanlines_50"
+			# quadTextureSprite = "GFX_hoi4_scanlines_50"
+			# position = { x = -2560 y = 0 }
+			# alwaystransparent = yes
+		# }	
+		
+		# iconType = {
+			# name = "hoi4_scanlines_75"
+			# quadTextureSprite = "GFX_hoi4_scanlines_75"
+			# position = { x = -2560 y = 0 }
+			# alwaystransparent = yes
+		# }		
+		
+		# iconType = {
+			# name = "hoi4_scanlines_100"
+			# quadTextureSprite = "GFX_hoi4_scanlines_100"
+			# position = { x = -2560 y = 0 }
+			# alwaystransparent = yes
+		# }		
+	}
+	
+	containerWindowType = {
+		name = "SL_scanlines_effect_gui_container"
+		position = { x = 0  y = 0 }
+		orientation = upper_left
+		
+		iconType = {
+			name = "hoi4_scanlines_25"
+			quadTextureSprite = "GFX_hoi4_scanlines_25"
+			position = { x = 0 y = 0 }
+			alwaystransparent = yes
+		}
+		
+		iconType = {
+			name = "hoi4_scanlines_50"
+			quadTextureSprite = "GFX_hoi4_scanlines_50"
+			position = { x = 0 y = 0 }
+			alwaystransparent = yes
+		}	
+		
+		iconType = {
+			name = "hoi4_scanlines_75"
+			quadTextureSprite = "GFX_hoi4_scanlines_75"
+			position = { x = 0 y = 0 }
+			alwaystransparent = yes
+		}		
+		
+		iconType = {
+			name = "hoi4_scanlines_100"
+			quadTextureSprite = "GFX_hoi4_scanlines_100"
+			position = { x = 0 y = 0 }
+			alwaystransparent = yes
+		}
+
+		iconType = {
+			name = "hoi4_scanlines_extended_25"
+			quadTextureSprite = "GFX_hoi4_scanlines_25"
+			position = { x = 1920 y = 0 }
+			alwaystransparent = yes
+		}
+		
+		iconType = {
+			name = "hoi4_scanlines_extended_50"
+			quadTextureSprite = "GFX_hoi4_scanlines_50"
+			position = { x = 1920 y = 0 }
+			alwaystransparent = yes
+		}	
+		
+		iconType = {
+			name = "hoi4_scanlines_extended_75"
+			quadTextureSprite = "GFX_hoi4_scanlines_75"
+			position = { x = 1920 y = 0 }
+			alwaystransparent = yes
+		}		
+		
+		iconType = {
+			name = "hoi4_scanlines_extended_100"
+			quadTextureSprite = "GFX_hoi4_scanlines_100"
+			position = { x = 1920 y = 0 }
+			alwaystransparent = yes
+		}		
+	}
+	
+	containerWindowType = {
+		name = "SL_scanlines_menu_gui_container"
+		size = { width = 250 height = 235 }
+		position = { x = -600 y = -220 }
+		show_position = { x = -600 y = 38 }
+		show_animation_type = decelerated
+		hide_animation_type = accelerated
+		animation_time = 300	
+		moveable = yes
+		show_sound = menu_open_window
+		click_to_front = yes
+
+		orientation = upper_right
+		
+		background = {
+			name ="SL_Background"
+			spriteType = "GFX_tiled_plain_bg"
+		}
+		
+		iconType = {
+			name = "SL_title_bg"
+			size = { width = 250 height = 15 }
+			quadTextureSprite = "GFX_header_bg"
+		}		
+		
+		instantTextboxType = {
+			name = "SL_title"
+			position = { x = 10 y = 5 }
+			font = "Bomb_28"
+			borderSize = {x = 0 y = 0}
+			text = SL_menu_title
+			maxWidth = 300
+			maxHeight = 20
+			format = left	
+		}	
+
+		instantTextboxType = {
+			name = "no_lines"
+			position = { x = 50 y = 47 }
+			font = "aldrich_20_outline"
+			borderSize = {x = 0 y = 0}
+			text = no_lines
+			maxWidth = 300
+			maxHeight = 20
+			format = left	
+		}
+
+		instantTextboxType = {
+			name = "25_lines"
+			position = { x = 50 y = 84 }
+			font = "aldrich_20_outline"
+			borderSize = {x = 0 y = 0}
+			text = 25_lines
+			maxWidth = 300
+			maxHeight = 20
+			format = left	
+		}
+
+		instantTextboxType = {
+			name = "50_lines"
+			position = { x = 50 y = 121 }
+			font = "aldrich_20_outline"
+			borderSize = {x = 0 y = 0}
+			text = 50_lines
+			maxWidth = 300
+			maxHeight = 20
+			format = left	
+		}
+
+		instantTextboxType = {
+			name = "75_lines"
+			position = { x = 50 y = 157 }
+			font = "aldrich_20_outline"
+			borderSize = {x = 0 y = 0}
+			text = 75_lines
+			maxWidth = 300
+			maxHeight = 20
+			format = left	
+		}
+
+		instantTextboxType = {
+			name = "100_lines"
+			position = { x = 50 y = 193 }
+			font = "aldrich_20_outline"
+			borderSize = {x = 0 y = 0}
+			text = 100_lines
+			maxWidth = 300
+			maxHeight = 20
+			format = left	
+		}
+
+		buttonType = {
+			name = "SL_button_deactivate"
+			position = {x = 215 y = 7 }
+			spriteType = "GFX_closebutton_small"
+			clicksound = click_close
+			pdx_tooltip = "CLOSE"
+			shortcut = "ESCAPE"
+		}
+
+		buttonType = {
+			name = "button_scanlines_off"
+			position = {x = 10 y = 47 }
+			spriteType = "GFX_air_base_copy_btn"
+			clicksound = click_close
+			shortcut = "0"
+			scale = 0.75
+		}
+
+		buttonType = {
+			name = "button_25scanlines"
+			position = {x = 10 y = 79 }
+			spriteType = "GFX_air_base_copy_btn"
+			clicksound = click_close
+			shortcut = "1"
+			scale = 0.75
+		}
+
+		buttonType = {
+			name = "button_50scanlines"
+			position = {x = 10 y = 115 }
+			spriteType = "GFX_air_base_copy_btn"
+			clicksound = click_close
+			shortcut = "2"
+			scale = 0.75
+		}	
+
+		buttonType = {
+			name = "button_75scanlines"
+			position = {x = 10 y = 151 }
+			spriteType = "GFX_air_base_copy_btn"
+			clicksound = click_close
+			shortcut = "3"
+			scale = 0.75
+		}
+
+		buttonType = {
+			name = "button_100scanlines"
+			position = {x = 10 y = 187 }
+			spriteType = "GFX_air_base_copy_btn"
+			clicksound = click_close
+			shortcut = "4"
+			scale = 0.75
+		}		
+	}
+}
