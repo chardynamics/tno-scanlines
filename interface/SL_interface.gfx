@@ -1,20 +1,4 @@
 spriteTypes = {
-	
-	spriteType = {
-		name = "GFX_hoi4_scanlines_25"
-		texturefile = "gfx/SL_gfx/hoi4_scanlines_25.dds"
-	}
-	
-	spriteType = {
-		name = "GFX_hoi4_scanlines_50"
-		texturefile = "gfx/SL_gfx/hoi4_scanlines_50.dds"
-	}	
-	
-	spriteType = {
-		name = "GFX_hoi4_scanlines_75"
-		texturefile = "gfx/SL_gfx/hoi4_scanlines_75.dds"
-	}	
-	
 	spriteType = {
 		name = "GFX_hoi4_scanlines_100"
 		texturefile = "gfx/SL_gfx/hoi4_scanlines_100.dds"
