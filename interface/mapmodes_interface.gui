@@ -18,10 +18,10 @@ guiTypes = {
 			
 			iconType = {
 				name = "hoi4_scanlines_100"
-				quadTextureSprite = "GFX_hoi4_scanlines_100"
+				quadTextureSprite = "GFX_hoi4_scanlines_crt"
 				position = { x = 0 y = 0 }
 				alwaystransparent = yes
-			}	
+			}
 		}
 
 		containerWindowType = {
