@@ -8,5 +8,5 @@ tags={
 dependencies={
 	"The New Order: Last Days of Europe"
 }
-name="The New Order: First Days of Scanlines"
+name="The New Order: First Days of Scanlines (CRT Curved)"
 supported_version="1.13.6"
