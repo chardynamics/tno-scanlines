@@ -121,7 +121,7 @@ guiTypes = {
 	
 	containerWindowType = {
 		name = "SL_scanlines_menu_gui_container"
-		size = { width = 250 height = 235 }
+		size = { width = 250 height = 200 }
 		position = { x = -600 y = -220 }
 		show_position = { x = -600 y = 38 }
 		show_animation_type = decelerated
@@ -189,19 +189,8 @@ guiTypes = {
 		}
 
 		instantTextboxType = {
-			name = "75_lines"
-			position = { x = 50 y = 157 }
-			font = "aldrich_20_outline"
-			borderSize = {x = 0 y = 0}
-			text = 75_lines
-			maxWidth = 300
-			maxHeight = 20
-			format = left	
-		}
-
-		instantTextboxType = {
 			name = "100_lines"
-			position = { x = 50 y = 193 }
+			position = { x = 50 y = 157 }
 			font = "aldrich_20_outline"
 			borderSize = {x = 0 y = 0}
 			text = 100_lines
@@ -244,20 +233,11 @@ guiTypes = {
 			clicksound = click_close
 			shortcut = "2"
 			scale = 0.75
-		}	
-
-		buttonType = {
-			name = "button_75scanlines"
-			position = {x = 10 y = 151 }
-			spriteType = "GFX_air_base_copy_btn"
-			clicksound = click_close
-			shortcut = "3"
-			scale = 0.75
 		}
 
 		buttonType = {
 			name = "button_100scanlines"
-			position = {x = 10 y = 187 }
+			position = {x = 10 y = 151 }
 			spriteType = "GFX_air_base_copy_btn"
 			clicksound = click_close
 			shortcut = "4"
