@@ -2,6 +2,75 @@
 @army_reform_y_pos = -48
 
 guiTypes = {
+
+	containerWindowType = {
+		name = "SL_scanlines_effect_gui_container_ms"
+		position = { x = -3840 y = -2160 }
+		Orientation = lower_RIGHT
+		
+		iconType = {
+			name = "hoi4_scanlines_25"
+			quadTextureSprite = "GFX_hoi4_scanlines_25"
+			position = { x = 0 y = 0 }
+			alwaystransparent = yes
+		}	
+		
+		iconType = {
+			name = "hoi4_scanlines_extended_25"
+			quadTextureSprite = "GFX_hoi4_scanlines_25"
+			position = { x = 1920 y = 0 }
+			alwaystransparent = yes
+		}			
+		
+		iconType = {
+			name = "hoi4_scanlines_extended_25_2"
+			quadTextureSprite = "GFX_hoi4_scanlines_25"
+			position = { x = 3840 y = 0 }
+			alwaystransparent = yes
+		}	
+		
+		iconType = {
+			name = "hoi4_scanlines_50"
+			quadTextureSprite = "GFX_hoi4_scanlines_50"
+			position = { x = 0 y = 0 }
+			alwaystransparent = yes
+		}	
+		
+		iconType = {
+			name = "hoi4_scanlines_extended_50"
+			quadTextureSprite = "GFX_hoi4_scanlines_50"
+			position = { x = 1920 y = 0 }
+			alwaystransparent = yes
+		}			
+		
+		iconType = {
+			name = "hoi4_scanlines_extended_50_2"
+			quadTextureSprite = "GFX_hoi4_scanlines_50"
+			position = { x = 3840 y = 0 }
+			alwaystransparent = yes
+		}	
+		
+		iconType = {
+			name = "hoi4_scanlines_100"
+			quadTextureSprite = "GFX_hoi4_scanlines_100"
+			position = { x = 0 y = 0 }
+			alwaystransparent = yes
+		}	
+		
+		iconType = {
+			name = "hoi4_scanlines_extended_100"
+			quadTextureSprite = "GFX_hoi4_scanlines_100"
+			position = { x = 1920 y = 0 }
+			alwaystransparent = yes
+		}			
+		
+		iconType = {
+			name = "hoi4_scanlines_extended_100_2"
+			quadTextureSprite = "GFX_hoi4_scanlines_100"
+			position = { x = 3840 y = 0 }
+			alwaystransparent = yes
+		}	
+	}
 	
 	containerWindowType =  {
 		name = "SL_scanlines_button_gui_container"

@@ -37,6 +37,7 @@ scripted_gui = {
 	
 	SL_scanlines_effect_gui = {
 		context_type = player_context
+		parent_window_token = top_bar 
 		window_name = "SL_scanlines_effect_gui_container_ms"
 
 		ai_check = {
