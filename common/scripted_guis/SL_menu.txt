@@ -25,7 +25,6 @@ scripted_gui = {
 								has_country_flag = SL_no_lines_flag
 								has_country_flag = SL_25_lines_flag
 								has_country_flag = SL_50_lines_flag
-								has_country_flag = SL_75_lines_flag
 								has_country_flag = SL_100_lines_flag
 							}
 						}
@@ -38,8 +37,7 @@ scripted_gui = {
 	
 	SL_scanlines_effect_gui = {
 		context_type = player_context
-		parent_window_token = top_bar 
-		window_name = "SL_scanlines_effect_gui_container"
+		window_name = "SL_scanlines_effect_gui_container_ms"
 
 		ai_check = {
 			always = no
@@ -54,13 +52,31 @@ scripted_gui = {
 				has_country_flag = SL_50_lines_flag
 			}
 			
-			hoi4_scanlines_75_visible = {
-				has_country_flag = SL_75_lines_flag
-			}
-			
 			hoi4_scanlines_100_visible = {
 				has_country_flag = SL_100_lines_flag
+			}	
+			hoi4_scanlines_extended_25_visible = {
+				has_country_flag = SL_25_lines_flag
+			}
+			
+			hoi4_scanlines_extended_50_visible = {
+				has_country_flag = SL_50_lines_flag
+			}
+			
+			hoi4_scanlines_extended_100_visible = {
+				has_country_flag = SL_100_lines_flag
 			}			
+			hoi4_scanlines_extended_25_2_visible = {
+				has_country_flag = SL_25_lines_flag
+			}
+			
+			hoi4_scanlines_extended_50_2_visible = {
+				has_country_flag = SL_50_lines_flag
+			}
+			
+			hoi4_scanlines_extended_100_2_visible = {
+				has_country_flag = SL_100_lines_flag
+			}
 		}
 	}
 
@@ -86,10 +102,6 @@ scripted_gui = {
 				NOT = { has_country_flag = SL_50_lines_flag }
 			}
 			
-			button_75scanlines_click_enabled = {
-				NOT = { has_country_flag = SL_75_lines_flag }
-			}
-			
 			button_100scanlines_click_enabled = {
 				NOT = { has_country_flag = SL_100_lines_flag }
 			}
@@ -103,7 +115,6 @@ scripted_gui = {
 			button_scanlines_off_click = {
 				clr_country_flag = SL_25_lines_flag
 				clr_country_flag = SL_50_lines_flag
-				clr_country_flag = SL_75_lines_flag
 				clr_country_flag = SL_100_lines_flag
 				
 				set_country_flag = SL_no_lines_flag
@@ -112,7 +123,6 @@ scripted_gui = {
 			button_25scanlines_click = {
 				clr_country_flag = SL_no_lines_flag
 				clr_country_flag = SL_50_lines_flag
-				clr_country_flag = SL_75_lines_flag
 				clr_country_flag = SL_100_lines_flag
 				
 				set_country_flag = SL_25_lines_flag
@@ -127,20 +137,10 @@ scripted_gui = {
 				set_country_flag = SL_50_lines_flag
 			}
 
-			button_75scanlines_click = {
-				clr_country_flag = SL_no_lines_flag
-				clr_country_flag = SL_25_lines_flag
-				clr_country_flag = SL_50_lines_flag
-				clr_country_flag = SL_100_lines_flag
-				
-				set_country_flag = SL_75_lines_flag
-			}
-
 			button_100scanlines_click = {
 				clr_country_flag = SL_no_lines_flag
 				clr_country_flag = SL_25_lines_flag
 				clr_country_flag = SL_50_lines_flag
-				clr_country_flag = SL_75_lines_flag
 				
 				set_country_flag = SL_100_lines_flag
 			}
