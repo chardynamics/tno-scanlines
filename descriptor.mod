@@ -9,4 +9,4 @@ dependencies={
 	"The New Order: Last Days of Europe"
 }
 name="The New Order: First Days of Scanlines"
-supported_version="1.13.6"
+supported_version="1.16.*"
